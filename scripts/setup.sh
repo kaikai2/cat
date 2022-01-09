@@ -6,4 +6,4 @@ rm -rf $SCRIPT_DIR/../venv
 
 python3 -m venv $SCRIPT_DIR/../venv
 
-$SCRIPT_DIR/../venv/bin/python3 -m pip install pillow
+$SCRIPT_DIR/../venv/bin/python3 -m pip install pillow pyglet
