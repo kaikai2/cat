@@ -5,15 +5,15 @@ s = turtle.getscreen()
 
 
 cat = turtle.Turtle()
-cat_image = "~/cat.gif"
+cat_image = "./cat.gif"
 s.addshape(cat_image)
 cat.shape(cat_image)
 cat.up()
 
 mouse = turtle.Turtle()
-smaller = PhotoImage(file="~/mouse.gif").zoom(1, 1)
+smaller = PhotoImage(file="./mouse.gif").zoom(1, 1)
 
-mouse_image = "~/mouse.gif"
+mouse_image = "./mouse.gif"
 s.addshape(mouse_image, turtle.Shape("image", smaller))
 mouse.shape(mouse_image)
 mouse.up()
