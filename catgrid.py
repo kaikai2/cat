@@ -1,6 +1,16 @@
 import turtle
 from random import randint
 
+from PIL import Image
+
+catImages = Image.open("./cat.gif")
+
+print(dir(catImages))
+print(catImages.n_frames)
+print(catImages.getdata())
+catImages.seek(1)
+print(catImages.getdata())
+
 def getactualx(x):
     return leftbottom_x + x*100 + 100
 
