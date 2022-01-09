@@ -1,3 +1,2 @@
 venv/*
-pyglethelper/__pycache__/__init__.cpython-36.pyc
-pyglethelper/__pycache__/index.cpython-36.pyc
+__pycache__
